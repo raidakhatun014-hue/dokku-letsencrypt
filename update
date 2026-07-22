@@ -1,1 +1,13 @@
-install
+# Real-Time Payment Gateway API (`server.js`)
+
+Supported Providers: **bKash**, **Nagad**, **Rocket**, **Coinbase Commerce**  
+Features: **Bearer Token Auth**, **Real-Time Webhooks**, **WebSocket Live Updates**
+
+---
+
+## 📦 Required Dependencies
+
+Install the necessary modules including `ws` for WebSocket functionality:
+
+```bash
+npm install express cors helmet body-parser dotenv ws
